@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    height:70px;
+    background-color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;   
+}
+.name{
+    color:black;;
+    padding:20px;
+}
+.inp{
+    padding:10px;
+    border:3px solid black;
+    border-radius:8px;
+    width:500px;
+}
+.links{
+    padding:20px;
+    color:rgb(62, 123, 255);
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.HomePage{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    border:3px solid black;
+    background-image: url(flowerbg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:600px;
+    width:100%;
+}
+#content1{
+    font-size: 60px;
+    color:black;
+}
+#content2{
+    font-size: 50px;
+    color:black;
+}
+#content3{
+    font-size: 60px;
+    color:black;
+}
