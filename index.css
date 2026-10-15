@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 .navbar{
     height:70px;
@@ -31,6 +32,7 @@ a{
     color:black;
 }
 .HomePage{
+    padding:20px;
     display:flex;
     flex: 1;
     flex-direction: column;
@@ -47,12 +49,179 @@ a{
 #content1{
     font-size: 60px;
     color:black;
+    text-shadow:2px 2px white;
 }
 #content2{
     font-size: 50px;
     color:black;
+    text-shadow:2px 2px white;
 }
-#content3{
-    font-size: 60px;
+button{
+    background-color:rgb(205, 171, 238);
     color:black;
+    height:60px;
+    width:100px;
+    padding:10px;
+    border:2px solid black;
+    border-radius:15%;
+    box-shadow: 2px 2px white;
+
+}
+.List1{
+    height:300px;
+    display:flex;
+    justify-content:space-evenly;
+    background-color: rgb(180, 210, 232);
+    overflow-x:scroll;
+}
+.heading{
+    text-align:center;
+}
+.items{
+    width:200px;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    flex-shrink:0;
+}
+.flower1{
+    height:80%;
+    width:100%;
+    background-image: url(flower1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.flower1h1{
+    padding:10px;
+    height:20%;
+    color:rgb(109, 93, 228);
+    text-align:center;
+}
+.flower2{
+    height:80%;
+    width:100%;
+    background-image: url(flower2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.flower2h1{
+    padding:10px;
+    height:20%;
+    color:rgb(109, 93, 228);
+    text-align:center;
+}
+.flower3{
+    height:80%;
+    width:100%;
+    background-image: url(flower3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.flower3h1{
+    padding:10px;
+    height:20%;
+    color:rgb(109, 93, 228);
+    text-align:center;
+}
+.flower4{
+    height:80%;
+    width:100%;
+    background-image: url(flower4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.flower4h1{
+    padding:10px;
+    height:20%;
+    color:rgb(109, 93, 228);
+    text-align:center;
+}
+.flower5{
+    height:80%;
+    width:100%;
+    background-image: url(flower5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.flower5h1{
+    padding:10px;
+    height:20%;
+    color:rgb(109, 93, 228);
+    text-align:center;
+}
+.flower6{
+    height:80%;
+    width:100%;
+    background-image: url(flower6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.flower6h1{
+    padding:10px;
+    height:20%;
+    color:rgb(109, 93, 228);
+    text-align:center;
+}
+.flower7{
+    height:80%;
+    width:100%;
+    background-image: url(flower7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.flower7h1{
+    padding:10px;
+    height:20%;
+    color:rgb(109, 93, 228);
+    text-align:center;
+}
+.flower8{
+    height:80%;
+    width:100%;
+    background-image: url(flower8.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.flower8h1{
+    padding:10px;
+    height:20%;
+    color:rgb(109, 93, 228);
+    text-align:center;
+}
+.flower9{
+    height:80%;
+    width:100%;
+    background-image: url(flower9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.flower9h1{
+    padding:10px;
+    height:20%;
+    color:rgb(109, 93, 228);
+    text-align:center;
+}
+.flower10{
+    height:80%;
+    width:100%;
+    background-image: url(flower10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.flower10h1{
+    padding:10px;
+    height:20%;
+    color:rgb(109, 93, 228);
+    text-align:center;
 }
